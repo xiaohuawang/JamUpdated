@@ -1,8 +1,4 @@
-package jam.valeryfardeli.com;
-
-/**
- * Created by valeryfardeli on 11/2/17.
- */
+package jam.game.com;
 
 import android.content.Context;
 import android.media.MediaPlayer;

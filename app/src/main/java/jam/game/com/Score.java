@@ -1,10 +1,6 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import java.util.Comparator;
-
-/**
- * Created by valeryfardeli on 12/5/17.
- */
 
 public class Score {
   private String username;

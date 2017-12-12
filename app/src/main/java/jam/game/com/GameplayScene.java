@@ -1,4 +1,4 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -8,11 +8,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
-import android.graphics.drawable.Drawable;
-
-/**
- * Created by valeryfardeli on 11/7/17.
- */
 
 public class GameplayScene implements Scene {
   private static final int JUMP_VELOCITY_LOW = (int) (-13 * Constants.LOGICAL_DENSITY);

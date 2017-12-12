@@ -1,14 +1,10 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Point;
 import android.graphics.Rect;
-
-/**
- * Created by valeryfardeli on 11/2/17.
- */
 
 public class RectPlayer implements GameObject {
   public static int RUN_STATE = 0;

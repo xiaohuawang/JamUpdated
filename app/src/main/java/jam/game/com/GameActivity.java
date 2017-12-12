@@ -1,4 +1,4 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.Manifest;
 import android.app.Activity;

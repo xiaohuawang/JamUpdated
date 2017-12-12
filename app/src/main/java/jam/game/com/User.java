@@ -1,8 +1,4 @@
-package jam.valeryfardeli.com;
-
-/**
- * Created by valeryfardeli on 12/5/17.
- */
+package jam.game.com;
 
 public class User {
   private String username;

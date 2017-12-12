@@ -1,11 +1,7 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
-
-/**
- * Created by valeryfardeli on 11/7/17.
- */
 
 public class AnimationManager {
   private Animation[] animations;

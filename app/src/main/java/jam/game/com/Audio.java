@@ -1,4 +1,4 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;

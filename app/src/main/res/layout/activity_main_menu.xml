@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="jam.valeryfardeli.com.GameActivity">
+    tools:context="jam.game.com.GameActivity">
 
     <ScrollView
         android:layout_width="match_parent"

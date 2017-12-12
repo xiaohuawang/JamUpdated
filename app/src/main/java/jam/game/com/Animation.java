@@ -1,13 +1,9 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
-
-/**
- * Created by valeryfardeli on 11/7/17.
- */
 
 public class Animation {
   private Bitmap[] frames;

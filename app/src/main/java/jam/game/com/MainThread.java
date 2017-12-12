@@ -1,15 +1,8 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import android.graphics.Canvas;
-import android.media.AudioFormat;
-import android.media.AudioRecord;
-import android.media.MediaRecorder;
 import android.os.Process;
 import android.view.SurfaceHolder;
-
-/**
- * Created by valeryfardeli on 11/2/17.
- */
 
 public class MainThread extends Thread {
   public static final int MAX_FPS = 30;
