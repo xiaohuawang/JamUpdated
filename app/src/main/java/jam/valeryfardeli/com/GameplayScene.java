@@ -161,7 +161,7 @@ public class GameplayScene implements Scene {
           player.update(playerPoint);
         }
       } else {
-        gamePanel.gameOver();
+        gamePanel.gameOver(score);
       }
     }
   }
@@ -172,7 +172,7 @@ public class GameplayScene implements Scene {
       if (jumpState > jumpLevel) {
         jumpLevel = jumpState;
       }
-      if (count == 7) {
+      if (count == 4) {
         if (jumpLevel == 1) {
           doJump(JUMP_VELOCITY_LOW);
         } else if (jumpLevel == 2) {

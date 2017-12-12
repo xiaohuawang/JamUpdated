@@ -24,14 +24,33 @@
                 android:scaleType="fitCenter"
                 android:src="@drawable/game_over_logo"/>
 
+            <TextView
+                android:id="@+id/score_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your Score:"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/score_value"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"/>
+
             <Button
                 android:id="@+id/play_again"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Play Again"/>
 
             <Button
                 android:id="@+id/back_to_main"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Back To Main Menu"/>

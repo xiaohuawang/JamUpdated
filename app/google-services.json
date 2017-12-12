@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "660475301491",
+    "firebase_url": "https://jam-a411b.firebaseio.com",
+    "project_id": "jam-a411b",
+    "storage_bucket": "jam-a411b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660475301491:android:9cb42fda273c317a",
+        "android_client_info": {
+          "package_name": "jam.valeryfardeli.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660475301491-dm0lprrse2badoh0gishrid6s6n7cl0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHKsHEKbMFMTY2mEP93aTXaVaiHgudjE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

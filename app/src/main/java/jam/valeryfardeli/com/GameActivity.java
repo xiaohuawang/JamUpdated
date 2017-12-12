@@ -17,6 +17,7 @@ import android.widget.Toast;
 import java.io.IOException;
 
 public class GameActivity extends Activity {
+  private Intent gameOverIntent;
 
   /**
    * Initialize:
@@ -36,6 +37,9 @@ public class GameActivity extends Activity {
 
     // initialize the view to be no title bar
     this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+    // initialize gameOverIntent
+    gameOverIntent = new Intent(GameActivity.this, GameOverActivity.class);
 
     // get the screen width and height
     DisplayMetrics displayMetrics = new DisplayMetrics();
@@ -114,10 +118,20 @@ public class GameActivity extends Activity {
     }
   }
 
+  /**
+   * Go to GameOverActivity.
+   */
   public void moveToGameOverActivity() {
-    Intent intent = new Intent(GameActivity.this, GameOverActivity.class);
-    startActivity(intent);
+    startActivity(gameOverIntent);
     finish();
+  }
+
+  /**
+   * Put the score of the user in the intent.
+   * @param value user's final score.
+   */
+  public void setScoreIntent(int value) {
+    gameOverIntent.putExtra("score", value);
   }
 
   /**

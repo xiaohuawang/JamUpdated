@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Jam</string>
+    <string name="err_msg_email">\"Email Invalid\"</string>
+    <string name="err_msg_password">Password has to be 6 characters or more</string>
 </resources>

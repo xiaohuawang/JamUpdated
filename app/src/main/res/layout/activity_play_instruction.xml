@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jam.valeryfardeli.com.PlayInstructionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How To Play:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/first_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Shout a word to jump. Shout softly to jump low, and shout loudly to jump high."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/second_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Time your jump effectively. Run endlessly so you can get the highest score!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        </LinearLayout>
+    </ScrollView>
+</android.widget.RelativeLayout>

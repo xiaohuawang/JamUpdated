@@ -60,9 +60,9 @@ public class Audio extends Thread {
         }
         readAudioBuffer();
 
-        if (lastLevel > 30 && lastLevel <= 100) {
+        if (lastLevel > 30 && lastLevel < 80) {
           gamePanel.setJumpState(1);
-        } else if (lastLevel > 100) {
+        } else if (lastLevel >= 80) {
           gamePanel.setJumpState(2);
         } else {
           gamePanel.setJumpState(0);

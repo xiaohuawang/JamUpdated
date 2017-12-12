@@ -90,13 +90,23 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     manager.draw(canvas);
   }
 
+  /**
+   * Set the jump state of the character.
+   * 1 is jump low, 2 is jump high.
+   * @param jumpState
+   */
   public void setJumpState(int jumpState) {
     this.jumpState = jumpState;
   }
 
-  public void gameOver() {
+  /**
+   * Move the activity of the caller to the GameOverActivity.
+   * @param score final score that the user get.
+   */
+  public void gameOver(int score) {
     thread.setRunning(false);
     thread2.setRunning(false);
+    gameActivity.setScoreIntent(score);
     gameActivity.moveToGameOverActivity();
   }
 }

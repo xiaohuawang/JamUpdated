@@ -24,12 +24,26 @@
                 android:scaleType="center"
                 android:src="@drawable/jam_logo"/>
 
+            <TextView
+                android:id="@+id/user_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"/>
+
             <Button
                 android:id="@+id/play"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Play"/>
+
+            <Button
+                android:id="@+id/instruction_button"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How To Play"/>
 
             <Button
                 android:id="@+id/leaderboard"
