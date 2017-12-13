@@ -1,4 +1,4 @@
-package jam.valeryfardeli.com;
+package jam.game.com;
 
 import org.junit.Test;
 
